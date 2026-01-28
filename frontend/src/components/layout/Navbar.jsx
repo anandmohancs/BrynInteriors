@@ -45,9 +45,7 @@ export const Navbar = () => {
             <img
               src={LOGO_URL}
               alt="BRYN - Architecture | Construction | Interior"
-              className={`h-10 md:h-12 w-auto object-contain transition-all duration-300 ${
-                isScrolled ? "" : "brightness-0 invert"
-              }`}
+              className="h-10 md:h-12 w-auto object-contain transition-all duration-300"
             />
           </Link>
 

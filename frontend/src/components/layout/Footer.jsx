@@ -33,10 +33,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div>
-              <h3 className="font-display text-2xl font-bold mb-2">BRYN</h3>
-              <p className="text-sm text-primary-foreground/60 uppercase tracking-wider">
-                Construction & Interiors
-              </p>
+              <img
+                src={LOGO_URL}
+                alt="BRYN - Architecture | Construction | Interior"
+                className="h-12 w-auto object-contain brightness-0 invert mb-2"
+              />
             </div>
             <p className="text-primary-foreground/70 leading-relaxed">
               Transforming spaces into extraordinary experiences. We deliver turnkey interior solutions for commercial, residential, and hospitality projects.

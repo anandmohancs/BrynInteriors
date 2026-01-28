@@ -114,9 +114,11 @@ export const Navbar = () => {
             <SheetContent side="right" className="w-[300px] bg-background">
               <div className="flex flex-col h-full pt-8">
                 <div className="flex items-center justify-between mb-8">
-                  <span className="font-display text-2xl font-bold text-foreground">
-                    BRYN
-                  </span>
+                  <img
+                    src={LOGO_URL}
+                    alt="BRYN"
+                    className="h-10 w-auto object-contain"
+                  />
                 </div>
                 <nav className="flex flex-col gap-1">
                   {navigation.map((item) => (

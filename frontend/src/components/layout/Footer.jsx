@@ -36,7 +36,7 @@ const Footer = () => {
               <img
                 src={LOGO_URL}
                 alt="BRYN - Architecture | Construction | Interior"
-                className="h-12 w-auto object-contain brightness-0 invert mb-2"
+                className="h-12 w-auto object-contain mb-2"
               />
             </div>
             <p className="text-primary-foreground/70 leading-relaxed">

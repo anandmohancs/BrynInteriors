@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 
+const LOGO_URL = "https://customer-assets.emergentagent.com/job_design-construct-9/artifacts/9m6xo1ee_BrynLogo.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 

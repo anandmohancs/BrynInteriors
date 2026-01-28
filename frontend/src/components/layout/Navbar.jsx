@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X, Phone } from "lucide-react";
 
+const LOGO_URL = "https://customer-assets.emergentagent.com/job_design-construct-9/artifacts/9m6xo1ee_BrynLogo.png";
+
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },

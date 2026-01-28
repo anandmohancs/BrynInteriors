@@ -42,22 +42,13 @@ export const Navbar = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="relative">
-              <span
-                className={`font-display text-2xl md:text-3xl font-bold tracking-tight transition-colors duration-300 ${
-                  isScrolled ? "text-foreground" : "text-primary-foreground"
-                } group-hover:text-primary`}
-              >
-                BRYN
-              </span>
-              <span
-                className={`block text-[10px] uppercase tracking-[0.25em] font-medium transition-colors duration-300 ${
-                  isScrolled ? "text-muted-foreground" : "text-primary-foreground/80"
-                }`}
-              >
-                Construction & Interiors
-              </span>
-            </div>
+            <img
+              src={LOGO_URL}
+              alt="BRYN - Architecture | Construction | Interior"
+              className={`h-10 md:h-12 w-auto object-contain transition-all duration-300 ${
+                isScrolled ? "" : "brightness-0 invert"
+              }`}
+            />
           </Link>
 
           {/* Desktop Navigation */}
